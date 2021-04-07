@@ -1,8 +1,8 @@
-package com.leratoletsepe.expensetracker.repositories;
+package com.leratoletsepe.xpensetrail.repositories;
 
-import com.leratoletsepe.expensetracker.domain.Category;
-import com.leratoletsepe.expensetracker.excpetions.EtBadRequestException;
-import com.leratoletsepe.expensetracker.excpetions.EtResourceNotFoundException;
+import com.leratoletsepe.xpensetrail.domain.Category;
+import com.leratoletsepe.xpensetrail.excpetions.EtBadRequestException;
+import com.leratoletsepe.xpensetrail.excpetions.EtResourceNotFoundException;
 
 import java.util.List;
 

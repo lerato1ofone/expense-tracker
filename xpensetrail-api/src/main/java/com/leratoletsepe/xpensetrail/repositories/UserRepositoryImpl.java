@@ -1,7 +1,7 @@
-package com.leratoletsepe.expensetracker.repositories;
+package com.leratoletsepe.xpensetrail.repositories;
 
-import com.leratoletsepe.expensetracker.domain.User;
-import com.leratoletsepe.expensetracker.excpetions.EtAuthException;
+import com.leratoletsepe.xpensetrail.domain.User;
+import com.leratoletsepe.xpensetrail.excpetions.EtAuthException;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
