@@ -1,7 +1,7 @@
-package com.leratoletsepe.expensetracker.resources;
+package com.leratoletsepe.xpensetrail.resources;
 
-import com.leratoletsepe.expensetracker.domain.Transaction;
-import com.leratoletsepe.expensetracker.services.TransactionService;
+import com.leratoletsepe.xpensetrail.domain.Transaction;
+import com.leratoletsepe.xpensetrail.services.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.expression.spel.ast.BooleanLiteral;
 import org.springframework.http.HttpStatus;

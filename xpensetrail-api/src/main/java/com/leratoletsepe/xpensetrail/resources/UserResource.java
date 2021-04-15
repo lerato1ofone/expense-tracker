@@ -1,8 +1,8 @@
-package com.leratoletsepe.expensetracker.resources;
+package com.leratoletsepe.xpensetrail.resources;
 
-import com.leratoletsepe.expensetracker.Constants;
-import com.leratoletsepe.expensetracker.domain.User;
-import com.leratoletsepe.expensetracker.services.UserService;
+import com.leratoletsepe.xpensetrail.Constants;
+import com.leratoletsepe.xpensetrail.domain.User;
+import com.leratoletsepe.xpensetrail.services.UserService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Autowired;

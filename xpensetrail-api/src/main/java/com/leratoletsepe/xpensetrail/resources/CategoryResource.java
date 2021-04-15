@@ -1,7 +1,7 @@
-package com.leratoletsepe.expensetracker.resources;
+package com.leratoletsepe.xpensetrail.resources;
 
-import com.leratoletsepe.expensetracker.domain.Category;
-import com.leratoletsepe.expensetracker.services.CategoryService;
+import com.leratoletsepe.xpensetrail.domain.Category;
+import com.leratoletsepe.xpensetrail.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
