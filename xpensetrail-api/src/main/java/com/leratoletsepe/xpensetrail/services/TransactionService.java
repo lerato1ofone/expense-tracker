@@ -1,8 +1,8 @@
-package com.leratoletsepe.expensetracker.services;
+package com.leratoletsepe.xpensetrail.services;
 
-import com.leratoletsepe.expensetracker.domain.Transaction;
-import com.leratoletsepe.expensetracker.excpetions.EtBadRequestException;
-import com.leratoletsepe.expensetracker.excpetions.EtResourceNotFoundException;
+import com.leratoletsepe.xpensetrail.domain.Transaction;
+import com.leratoletsepe.xpensetrail.excpetions.EtBadRequestException;
+import com.leratoletsepe.xpensetrail.excpetions.EtResourceNotFoundException;
 
 import java.util.List;
 

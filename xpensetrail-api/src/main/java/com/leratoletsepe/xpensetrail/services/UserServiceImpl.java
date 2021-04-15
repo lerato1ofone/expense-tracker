@@ -1,8 +1,8 @@
-package com.leratoletsepe.expensetracker.services;
+package com.leratoletsepe.xpensetrail.services;
 
-import com.leratoletsepe.expensetracker.domain.User;
-import com.leratoletsepe.expensetracker.excpetions.EtAuthException;
-import com.leratoletsepe.expensetracker.repositories.UserRespository;
+import com.leratoletsepe.xpensetrail.domain.User;
+import com.leratoletsepe.xpensetrail.excpetions.EtAuthException;
+import com.leratoletsepe.xpensetrail.repositories.UserRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

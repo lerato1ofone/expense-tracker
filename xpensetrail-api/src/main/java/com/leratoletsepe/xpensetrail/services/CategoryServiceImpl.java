@@ -1,9 +1,9 @@
-package com.leratoletsepe.expensetracker.services;
+package com.leratoletsepe.xpensetrail.services;
 
-import com.leratoletsepe.expensetracker.domain.Category;
-import com.leratoletsepe.expensetracker.excpetions.EtBadRequestException;
-import com.leratoletsepe.expensetracker.excpetions.EtResourceNotFoundException;
-import com.leratoletsepe.expensetracker.repositories.CategoryRepository;
+import com.leratoletsepe.xpensetrail.domain.Category;
+import com.leratoletsepe.xpensetrail.excpetions.EtBadRequestException;
+import com.leratoletsepe.xpensetrail.excpetions.EtResourceNotFoundException;
+import com.leratoletsepe.xpensetrail.repositories.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
