@@ -1,4 +1,4 @@
-package com.leratoletsepe.expensetracker.excpetions;
+package com.leratoletsepe.xpensetrail.excpetions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
