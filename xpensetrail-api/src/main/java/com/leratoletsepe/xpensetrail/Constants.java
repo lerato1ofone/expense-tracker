@@ -1,4 +1,4 @@
-package com.leratoletsepe.expensetracker;
+package com.leratoletsepe.xpensetrail;
 
 public class Constants {
 
