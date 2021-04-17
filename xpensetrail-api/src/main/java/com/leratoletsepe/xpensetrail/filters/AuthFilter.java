@@ -1,6 +1,6 @@
-package com.leratoletsepe.expensetracker.filters;
+package com.leratoletsepe.xpensetrail.filters;
 
-import com.leratoletsepe.expensetracker.Constants;
+import com.leratoletsepe.xpensetrail.Constants;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import org.springframework.http.HttpStatus;

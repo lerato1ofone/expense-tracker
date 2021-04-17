@@ -1,6 +1,6 @@
-package com.leratoletsepe.expensetracker;
+package com.leratoletsepe.xpensetrail;
 
-import com.leratoletsepe.expensetracker.filters.AuthFilter;
+import com.leratoletsepe.xpensetrail.filters.AuthFilter;
 import org.springframework.web.filter.CorsFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,10 +10,10 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 @SpringBootApplication
-public class ExpenseTrackerApiApplication {
+public class XpensetrailApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ExpenseTrackerApiApplication.class, args);
+		SpringApplication.run(XpensetrailApiApplication.class, args);
 	}
 
 	@Bean

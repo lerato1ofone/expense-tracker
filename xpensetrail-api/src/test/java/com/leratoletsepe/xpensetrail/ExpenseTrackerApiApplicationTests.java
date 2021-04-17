@@ -1,10 +1,10 @@
-package com.leratoletsepe.expensetracker;
+package com.leratoletsepe.xpensetrail;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ExpenseTrackerApiApplicationTests {
+class XpensetrailApiApplicationTests {
 
 	@Test
 	void contextLoads() {
