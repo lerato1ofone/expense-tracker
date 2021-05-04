@@ -8,7 +8,7 @@ import Title from './Title';
 
 export default function Informational() {
     return (
-        <div className="h-screen relative font-body">
+        <div className="relative font-body">
             <div className="absolute -inset-0 z-0">
                 <Info />
             </div>
@@ -22,7 +22,7 @@ export default function Informational() {
                 <div className="flex flex-col items-center">
                     <Title text="Benefits" />
                     <p>Over half a million users like us. <span>&#8594;</span></p>
-                    <div className="flex mt-12 break-words">
+                    <div className="flex mt-12 break-words ls:flex-col sm:flex-col">
                         <div className="flex flex-col items-center">
                             <LockIcon />
                             <p className="w-1/2 mt-3 text-center">Secure and reliable, only you get access to your account and make changes.</p>
