@@ -13,10 +13,18 @@ export default function Informational() {
                 <h3>Benefits</h3>
                 <p>Over half a million users like us. <span>&#8594;</span></p>
                 <div>
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
+                    <div>
+                        <p>Secure and reliable, only you get access to your account and make changes.</p>
+                    </div>
+                    <div>
+                        <p>See exactly where your money goes & keep track of it.</p>
+                    </div>
+                    <div>
+                        <p>Your transactions are organized in a categoried fashion.</p>
+                    </div>
+                    <div>
+                        <p>Don’t spend money to understand your money. Get everything for free.</p>
+                    </div>
                 </div>
             </div>
         </div>
