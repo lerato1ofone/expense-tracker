@@ -6,9 +6,12 @@ import Informational from './components/Informational';
 
 function App() {
   return (
-    <div className="bg-gradient-to-br from-purple via-light-white to-transaparent h-screen">
-      <Navigation />
-      <Hero />
+    <div>
+      <div className="bg-gradient-to-br from-purple via-light-white to-transaparent h-screen">
+        <Navigation />
+        <Hero />
+      </div>
+
       <Informational />
     </div>
   );
