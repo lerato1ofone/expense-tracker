@@ -22,21 +22,21 @@ export default function Informational() {
                     <h3 className="text-2xl font-semibold mb-6">Benefits</h3>
                     <p>Over half a million users like us. <span>&#8594;</span></p>
                     <div className="flex mt-12 break-words">
-                        <div>
+                        <div className="flex flex-col items-center">
                             <LockIcon />
-                            <p>Secure and reliable, only you get access to your account and make changes.</p>
+                            <p className="w-1/2 mt-3 text-center">Secure and reliable, only you get access to your account and make changes.</p>
                         </div>
-                        <div>
+                        <div className="flex flex-col items-center">
                             <EyeIcon />
-                            <p>See exactly where your money goes & keep track of it.</p>
+                            <p className="w-1/2 mt-3 text-center">See exactly where your money goes & keep track of it.</p>
                         </div>
-                        <div>
+                        <div className="flex flex-col items-center">
                             <TransactionsIcon />
-                            <p>Your transactions are organized in a categoried fashion.</p>
+                            <p className="w-1/2 mt-3 text-center">Your transactions are organized in a categoried fashion.</p>
                         </div>
-                        <div>
+                        <div className="flex flex-col items-center">
                             <WalletIcon />
-                            <p>Don’t spend money to understand your money. Get everything for free.</p>
+                            <p className="w-1/2 mt-3 text-center">Don’t spend money to understand your money. Get everything for free.</p>
                         </div>
                     </div>
                 </div>
