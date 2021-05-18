@@ -4,6 +4,7 @@ import LockIcon from '../icons/LockIcon';
 import WalletIcon from '../icons/WalletIcon';
 import Info from './../icons/Info';
 import TransactionsIcon from './../icons/TransactionsIcon';
+import Title from './Title';
 
 export default function Informational() {
     return (
@@ -19,7 +20,7 @@ export default function Informational() {
                     <button className="bg-green p-3 rounded font-semibold text-white tracking-wide">Sign up. It’s free.</button>
                 </div>
                 <div className="flex flex-col items-center">
-                    <h3 className="text-2xl font-semibold mb-6">Benefits</h3>
+                    <Title text="Benefits" />
                     <p>Over half a million users like us. <span>&#8594;</span></p>
                     <div className="flex mt-12 break-words">
                         <div className="flex flex-col items-center">
