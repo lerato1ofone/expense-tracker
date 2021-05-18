@@ -1,11 +1,12 @@
 import React from 'react'
 import Computer from '../icons/Computer'
+import Title from './Title'
 
 export default function HowItWorks() {
     return (
-        <div>
-            <div>
-                <h3>How it works</h3>
+        <div className="font-body">
+            <div className="text-center">
+                <Title text="How it works"/>
             </div>
             <div>
                 <div>
