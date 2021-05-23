@@ -1,5 +1,9 @@
 import React from 'react'
+import EyeIcon from '../icons/EyeIcon';
+import LockIcon from '../icons/LockIcon';
+import WalletIcon from '../icons/WalletIcon';
 import Info from './../icons/Info';
+import TransactionsIcon from './../icons/TransactionsIcon';
 
 export default function Informational() {
     return (
@@ -19,6 +23,7 @@ export default function Informational() {
                     <p>Over half a million users like us. <span>&#8594;</span></p>
                     <div className="flex mt-12 break-words">
                         <div>
+                            <LockIcon />
                             <p>Secure and reliable, only you get access to your account and make changes.</p>
                         </div>
                         <div>
