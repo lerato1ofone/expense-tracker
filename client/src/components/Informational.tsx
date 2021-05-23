@@ -31,6 +31,7 @@ export default function Informational() {
                             <p>See exactly where your money goes & keep track of it.</p>
                         </div>
                         <div>
+                            <TransactionsIcon />
                             <p>Your transactions are organized in a categoried fashion.</p>
                         </div>
                         <div>
