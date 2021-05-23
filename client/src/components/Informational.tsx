@@ -27,6 +27,7 @@ export default function Informational() {
                             <p>Secure and reliable, only you get access to your account and make changes.</p>
                         </div>
                         <div>
+                            <EyeIcon />
                             <p>See exactly where your money goes & keep track of it.</p>
                         </div>
                         <div>
