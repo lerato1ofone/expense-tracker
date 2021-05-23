@@ -35,6 +35,7 @@ export default function Informational() {
                             <p>Your transactions are organized in a categoried fashion.</p>
                         </div>
                         <div>
+                            <WalletIcon />
                             <p>Don’t spend money to understand your money. Get everything for free.</p>
                         </div>
                     </div>
