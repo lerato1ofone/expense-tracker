@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Logo() {
     return (
-        <svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="cursor-pointer origin-center transform ease-in-out duration-500 hover:opacity-50 hover:scale-125" width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="18.2" height="16.8" rx="1.5" fill="#D72626"/>
             <rect y="19.8" width="18.2" height="16.8" rx="1.5" fill="#AB62FE"/>
             <rect x="21.2" width="18.2" height="16.8" rx="1.5" fill="black"/>
