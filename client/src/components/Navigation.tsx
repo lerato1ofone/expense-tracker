@@ -4,10 +4,10 @@ import Separator from '../icons/Separator'
 
 export default function Navigation() {
     return (
-        <nav className="font-logo flex justify-between items-center p-6 w-800 w-11/12 m-auto">
+        <nav className="font-logo relative flex justify-between items-center p-6 w-800 w-11/12 m-auto">
             <div className="flex items-center">
                     <Logo />
-                    <span className="font-semibold text-xl pl-3 tracking-wider hover:opacity-80">Xpensetrail.</span>
+                    <a href="/" className="font-semibold text-xl pl-3 tracking-wider origin-left transform ease-in-out duration-500 hover:opacity-50 hover:scale-105">Xpensetrail.</a>
             </div>
 
             <div className="flex items-center">
