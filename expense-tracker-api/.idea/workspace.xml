@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b5852e-466e-4344-907b-ef8d15f8c71f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/resources/UserResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/excpetions/EtAuthException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/repositories/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/repositories/UserRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/services/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1uf99onYSJG5i6uSyZ8WuvT8msH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -78,6 +84,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2586" y="246" width="662" height="566" key="#com.intellij.ide.util.MemberChooser" timestamp="1625050305431">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2586" y="246" width="662" height="566" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1625050305431" />
     <state width="1676" height="296" key="GridCell.Tab.0.bottom" timestamp="1625049241965">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
