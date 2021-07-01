@@ -2,17 +2,43 @@ package com.leratoletsepe.expensetracker.services;
 
 import com.leratoletsepe.expensetracker.domain.User;
 import com.leratoletsepe.expensetracker.excpetions.EtAuthException;
+import com.leratoletsepe.expensetracker.repositories.UserRespository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.regex.Pattern;
 
 @Service
+@Transactional
 public class UserServiceImpl implements UserService {
+
+    @Autowired
+    UserRespository userRespository;
+
     @Override
     public User validateUser(String email, String password) throws EtAuthException {
-        return null;
+        if(email != null)
+            email = email.toLowerCase();
+
+       return userRespository.findByEmailAndPassword(email, password);
     }
 
     @Override
     public User registerUser(String firstName, String lastName, String email, String password) throws EtAuthException {
-        return null;
+        Pattern pattern = Pattern.compile("^(.+)@(.+)$");
+
+        if(email != null)
+            email = email.toLowerCase();
+
+        if(!pattern.matcher(email).matches())
+            throw new EtAuthException("Invalid email format");
+
+        Integer count = userRespository.getCountByEmail(email);
+        if(count > 0)
+            throw new EtAuthException("Email already in use");
+
+        Integer userId = userRespository.create(firstName, lastName, email, password);
+        return userRespository.findById(userId);
     }
 }
