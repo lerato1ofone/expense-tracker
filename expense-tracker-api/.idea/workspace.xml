@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b5852e-466e-4344-907b-ef8d15f8c71f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/filters/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/resources/CategoryResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/resources/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/resources/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/ExpenseTrackerApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leratoletsepe/expensetracker/ExpenseTrackerApiApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,10 +97,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="184" key="#Inspections/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1625126532196" />
-    <state x="2586" y="246" width="662" height="566" key="#com.intellij.ide.util.MemberChooser" timestamp="1625050305431">
+    <state x="2586" y="246" width="662" height="566" key="#com.intellij.ide.util.MemberChooser" timestamp="1625138076548">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2586" y="246" width="662" height="566" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1625050305431" />
+    <state x="2586" y="246" width="662" height="566" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1625138076548" />
     <state x="2352" y="124" key="CommitChangelistDialog2" timestamp="1625065547682">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
