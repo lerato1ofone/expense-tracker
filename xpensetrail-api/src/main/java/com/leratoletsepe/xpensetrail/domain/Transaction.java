@@ -1,4 +1,4 @@
-package com.leratoletsepe.expensetracker.domain;
+package com.leratoletsepe.xpensetrail.domain;
 
 public class Transaction {
 
