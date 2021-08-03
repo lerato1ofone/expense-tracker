@@ -1,0 +1,9 @@
+import React from 'react'
+
+export default function Separator() {
+    return (
+        <svg className="sm:hidden md:block" width="4" height="35" viewBox="0 0 4 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="1.65295" y1="34.0141" x2="1.65295" y2="0.99786" stroke="#D0D5F2" stroke-width="3"/>
+        </svg>
+    )
+}
