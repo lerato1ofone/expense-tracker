@@ -6,8 +6,8 @@ import ListItem from './ListItem';
 export default function HowItWorks() {
     return (
         <div className="h-screen font-body flex flex-col justify-center">
-            <div className="text-center mt-12">
-                <Title text="How it works"/>
+            <div>
+                <h3>How it works</h3>
             </div>
             <div className="flex justify-center items-center lg:flex-row sm:flex-col">
                 <div className="">
