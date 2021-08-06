@@ -1,6 +1,7 @@
 package com.leratoletsepe.xpensetrail.repositories;
 
 import com.leratoletsepe.xpensetrail.domain.User;
+import com.leratoletsepe.xpensetrail.domain.dto.UserDto;
 import com.leratoletsepe.xpensetrail.excpetions.EtAuthException;
 
 public interface UserRespository {
@@ -12,4 +13,6 @@ public interface UserRespository {
     Integer getCountByEmail(String email);
 
     User findById(Integer userId);
+
+    UserDto findUserById(Integer userId);
 }
