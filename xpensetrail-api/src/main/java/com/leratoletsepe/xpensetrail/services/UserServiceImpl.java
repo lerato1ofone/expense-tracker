@@ -1,7 +1,9 @@
 package com.leratoletsepe.xpensetrail.services;
 
 import com.leratoletsepe.xpensetrail.domain.User;
+import com.leratoletsepe.xpensetrail.domain.dto.UserDto;
 import com.leratoletsepe.xpensetrail.excpetions.EtAuthException;
+import com.leratoletsepe.xpensetrail.excpetions.EtResourceNotFoundException;
 import com.leratoletsepe.xpensetrail.repositories.UserRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -40,5 +42,10 @@ public class UserServiceImpl implements UserService {
 
         Integer userId = userRespository.create(firstName, lastName, email, password);
         return userRespository.findById(userId);
+    }
+
+    @Override
+    public UserDto getUser(Integer userId) throws EtResourceNotFoundException {
+        return userRespository.findUserById(userId);
     }
 }
