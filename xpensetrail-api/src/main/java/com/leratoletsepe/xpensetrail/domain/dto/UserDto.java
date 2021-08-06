@@ -1,19 +1,17 @@
-package com.leratoletsepe.xpensetrail.domain;
+package com.leratoletsepe.xpensetrail.domain.dto;
 
-public class User {
+public class UserDto {
 
     private  Integer userId;
     private String firstName;
     private String lastName;
     private String email;
-    private String password;
 
-    public User(Integer userId, String firstName, String lastName, String email, String password) {
+    public UserDto(Integer userId, String firstName, String lastName, String email) {
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
-        this.password = password;
     }
 
     public void setUserId(Integer userId) {
@@ -32,10 +30,6 @@ public class User {
         this.email = email;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
     public Integer getUserId() {
         return userId;
     }
@@ -52,7 +46,4 @@ public class User {
         return email;
     }
 
-    public String getPassword() {
-        return password;
-    }
 }
