@@ -1,6 +1,7 @@
 package com.leratoletsepe.xpensetrail.repositories;
 
 import com.leratoletsepe.xpensetrail.domain.User;
+import com.leratoletsepe.xpensetrail.domain.dto.UserDto;
 import com.leratoletsepe.xpensetrail.excpetions.EtAuthException;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -73,6 +74,18 @@ public class UserRepositoryImpl implements UserRespository {
     public User findById(Integer userId) {
         return jdbcTemplate.queryForObject(SQL_FIND_BY_ID, new Object[]{userId}, userRowMapper);
     }
+
+    @Override
+    public UserDto findUserById(Integer userId) {
+        return jdbcTemplate.queryForObject(SQL_FIND_BY_ID, new Object[]{userId}, filteredUserRowMapper);
+    }
+
+    private RowMapper<UserDto> filteredUserRowMapper = ((rs, rowNumber) -> {
+        return new UserDto(rs.getInt("USER_ID"),
+                rs.getString("FIRST_NAME"),
+                rs.getString("LAST_NAME"),
+                rs.getString("EMAIL"));
+    });
 
     private RowMapper<User> userRowMapper = ((rs, rowNumber) -> {
        return new User(rs.getInt("USER_ID"),
